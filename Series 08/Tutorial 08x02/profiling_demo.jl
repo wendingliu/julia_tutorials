@@ -5,6 +5,7 @@ function myfunc()
     maximum(A)
 end
 
+
 # time function
 
 @time myfunc()
