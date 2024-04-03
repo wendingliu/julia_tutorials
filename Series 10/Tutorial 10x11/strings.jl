@@ -39,8 +39,12 @@ println("$s3 dot jl")
 # \alpha<tab>
 typeof('α')
 
+'β'
+
 # \:dog:<tab>
 typeof('🐶')
+
+'😺'
 
 α = 1
 
@@ -55,3 +59,10 @@ typeof('🐶')
 
 # \euler<tab>
 ℯ
+
+ℯ - exp(1)
+
+typeof(ℯ)
+typeof(exp(1))
+ℯ == exp(1)
+ℯ ≈ exp(1)

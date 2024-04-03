@@ -8,7 +8,7 @@ using Distributed
 
 addprocs(5)
 
-# how to view processes and workers
+# how to view processes and workers (`1` is master, worker starts from `2`)
 
 nprocs()
 
@@ -33,6 +33,7 @@ workers()
 w = workers()
 
 w[1]
+w[2]
 
 # how to assign a task to a worker
 

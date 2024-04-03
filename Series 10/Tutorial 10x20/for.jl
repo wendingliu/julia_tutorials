@@ -4,7 +4,7 @@ for i = 1:10
     println(i)
 end
 
-for i = 0:5:50
+for i = 0:5:49
     println(i)
 end
 

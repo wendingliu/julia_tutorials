@@ -28,6 +28,6 @@ ys = randn(1_000)
 
 scatter(xs, ys;
     legend = false,
-    alpha = 0.5,
+    alpha = .5,
     aspect_ratio = 1
 )

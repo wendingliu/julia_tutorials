@@ -29,3 +29,5 @@ dog[1]
 name
 age
 breed
+
+Tuple{String, Int, String}(["abc", 42, "dog"])
